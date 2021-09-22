@@ -33,6 +33,6 @@ const productTotal = products.reduce(
   (previous, current) => previous + current.price,
   0
 );
-console.log(productTotal);
+// console.log(productTotal);
 
 export { add, mulitply, subtrac };
